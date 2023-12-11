@@ -1,0 +1,16 @@
+[
+
+    {
+        "name": "sleeping dog",
+        "image": "sleep_animal_dog.png"
+    },
+    {
+        "name": "light sleep dog",
+        "image": "pet_darui_dog.png"
+    },
+    {
+        "name": "awake dog",
+        "image": "inu_shippo_oikakeru.png"
+    }
+
+]
