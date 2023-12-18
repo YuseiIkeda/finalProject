@@ -1,8 +1,24 @@
 import { useEffect, useState } from "react";
 
 async function fetchDogs(speed) {
-    const response = await fetch("dogs.json");
-    const data = await response.json();
+    // const response = await fetch("dogs.json");
+    // const data = await response.json();
+    const data = [
+
+        {
+            "name": "sleeping dog",
+            "image": "sleep_animal_dog.png"
+        },
+        {
+            "name": "light sleep dog",
+            "image": "pet_darui_dog.png"
+        },
+        {
+            "name": "awake dog",
+            "image": "inu_shippo_oikakeru.png"
+        }
+
+    ];
 
     if (speed >= 20) {
         return data.filter((item) => item.image === "inu_shippo_oikakeru.png");
