@@ -60,12 +60,10 @@ export default function Main() {
         };
 
         const handleMouseLeave = () => {
-            setPosition({ x: 0, y: 0 });
             setPrevPosition({ prevX: "", prevY: "" });
         };
 
         const handleMouseUp = () => {
-            setPosition({ x: 0, y: 0 });
             setPrevPosition({ prevX: "", prevY: "" });
         };
 
